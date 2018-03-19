@@ -7,10 +7,6 @@ console.log(first);
 var last = sentence.slice(-1);
 console.log(last);
 
-// var print = function(whatToSay) {
-//   alert(whatToSay);
-// };
-
 var newString = function (first,last) {
   return (first + last).toUpperCase();
 };
