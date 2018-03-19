@@ -26,3 +26,10 @@ var finalString = newStringReverse(newString(first,last));
 console.log(finalString);
 
 console.log(finalString.length);
+
+var output = function () {
+return finalString.charAt(Math.floor(finalString.length/2)) + finalString;
+}
+
+
+console.log(output());
