@@ -21,4 +21,8 @@ var newStringReverse = function(newString) {
   return sentence + newString.charAt(1) + newString.charAt(0);
 };
 
-console.log(newStringReverse(newString(first,last)));
+var finalString = newStringReverse(newString(first,last));
+
+console.log(finalString);
+
+console.log(finalString.length);
